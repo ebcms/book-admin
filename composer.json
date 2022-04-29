@@ -1,0 +1,14 @@
+{
+    "name": "ebcms/book-admin",
+    "description": "书籍管理系统",
+    "type": "library",
+    "license": "GPL-3.0",
+    "require": {
+        "ebcms/admin": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Ebcms\\BookAdmin\\": "src/library/"
+        }
+    }
+}
